@@ -10,16 +10,16 @@ The goal of this project is to
 - <b> PrepareData.jl </b>: This code assumes that names.zip is in the same folder as the file.
    To run, type- julia prepare.jl names.zip names.db
 
-- PlotData.jl : This code takes input from prepare.jl file.
+- <b> PlotData.jl : This code takes input from prepare.jl file.
    To run, type- julia plot.jl names.db <name> <sex>
    (Enter any name and sex. In the database, all names start with Uppercase. So in the argument, provide name with the first letter in uppercase)
   
-- FindSimilarNames.jl : Open terminal and type-
+- <b> FindSimilarNames.jl : Open terminal and type-
                          • (For MacOS) export JULIA_NUM_THREADS=4 
                            (FOR Windows) set JULIA_NUM_THREADS=4
                          • julia FindSimilarNames.jl
    
-   
+# File Description:  
 - PrepareData.jl: 
   1) Read the name of the input file and output file from the command line.
   2) Use the Julia ZipFile.jl library to scan the input zip file. 
