@@ -58,4 +58,4 @@
   10) Display the names (not indexes) of the boy, girl pair with the largest cosine distance 
   
 - <b> FindSimilarNamesExtended.jl </b>:
-   1) Same as FindSimialeNames.jl but instead of computing the boy-girl pair that has the highest score, find the top-1000 such names.
+   1) Same as FindSimilarNames.jl but instead of computing the boy-girl pair that has the highest score, find the top-1000 such names.
