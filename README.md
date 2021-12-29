@@ -59,3 +59,5 @@
   
 - <b> FindSimilarNamesExtended.jl </b>:
    1) Same as FindSimilarNames.jl but instead of computing the boy-girl pair that has the highest score, find the top-1000 such names.
+
+# names.zip file used in this project is provided above.
