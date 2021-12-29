@@ -7,7 +7,7 @@ The goal of this project is to
 
 # Steps to run:
 
-## - PrepareData.jl : This code assumes that names.zip is in the same folder as the file.
+- <b> PrepareData.jl </b>: This code assumes that names.zip is in the same folder as the file.
    To run, type- julia prepare.jl names.zip names.db
 
 - PlotData.jl : This code takes input from prepare.jl file.
