@@ -21,7 +21,7 @@
         (For Windows) ```set JULIA_NUM_THREADS=4```
    - To run, type: ```julia FindSimilarNames.jl```
  
-- <b> FindSimilarnamesExtended.jl </b> :
+- <b> FindSimilarNamesExtended.jl </b> :
    - Open terminal and type-
    - (For MacOS) ```export JULIA_NUM_THREADS=4 ``` <br>
         (For Windows) ```set JULIA_NUM_THREADS=4```
