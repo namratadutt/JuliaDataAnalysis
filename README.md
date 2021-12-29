@@ -20,6 +20,12 @@
    - (For MacOS) ```export JULIA_NUM_THREADS=4 ``` <br>
         (For Windows) ```set JULIA_NUM_THREADS=4```
    - To run, type: ```julia FindSimilarNames.jl```
+ 
+- <b> FindSimilarnamesExtended.jl </b> :
+   - Open terminal and type-
+   - (For MacOS) ```export JULIA_NUM_THREADS=4 ``` <br>
+        (For Windows) ```set JULIA_NUM_THREADS=4```
+   - To run, type: ```julia FindSimilarNamesExtended.jl```
    
 # File Description:  
 - <b> PrepareData.jl </b>: 
@@ -39,7 +45,7 @@
   4) Sort the data on year.
   5) Plot the data using Gadfly library.
    
-- <b> SimilarBabyNames.jl </b>:
+- <b> FindSimilarNames.jl </b>:
    1) Load the data from names.db into a DataFrame.
    2) Determine the total number of distinct boy and girl names (using DataFrame). Let these counts be Nb (number of boy names) and Ng(number of girl names) and Ny(number of years)
    3) Build a bidirectional map from boy_name => boy_index, boy_index => boy_name (and the same for girl and year). These maps indicate at what position in the Fb matrix, the frequencies for a specific boy name is stored
@@ -51,3 +57,5 @@
    9) Compute the cosine distance (i.e the dot product) of all pairs of boy and girl names. Specifically, form index pairs from Qb and Qg and compute the dot product of the vectors Qb[i] and Qg[j]. Keep track of the larges value you encounter (maximum) and the index pair where the maximum is achieved.
   10) Display the names (not indexes) of the boy, girl pair with the largest cosine distance 
   
+- <b> FindSimilarNamesExtended.jl </b>:
+   1) Same as FindSimialeNames.jl but instead of computing the boy-girl pair that has the highest score, find the top-1000 such names.
