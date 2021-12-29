@@ -37,7 +37,7 @@ The goal of this project is to
   4) Sort the data on year.
   5) Plot the data using Gadfly library.
    
-   - <b> SimilarBabyNames.jl </b>:
+- <b> SimilarBabyNames.jl </b>:
    1) Load the data from names.db into a DataFrame.
    2) Determine the total number of distinct boy and girl names (using DataFrame). Let these counts be Nb (number of boy names) and Ng(number of girl names) and Ny(number of years)
    3) Build a bidirectional map from boy_name => boy_index, boy_index => boy_name (and the same for girl and year). These maps indicate at what position in the Fb matrix, the frequencies for a specific boy name is stored
