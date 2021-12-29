@@ -7,18 +7,18 @@ The goal of this project is to
 
 # Steps to run:
 
-- <b> PrepareData.jl </b>: This code assumes that names.zip is in the same folder as the file.
+- <b> PrepareData.jl </b>: This code assumes that names.zip is in the same folder as the file.<br>
    To run, type- ```julia prepare.jl names.zip names.db```
 
-- <b> PlotData.jl </b> : This code takes input from prepare.jl file.
+- <b> PlotData.jl </b> : This code takes input from prepare.jl file.<br>
    To run, type-``` julia plot.jl names.db <name> <sex>```
    (Enter any name and sex. In the database, all names start with Uppercase. So in the argument, provide name with the first letter in uppercase)
   
 - <b> FindSimilarNames.jl </b> : 
-      - Open terminal and type-
-      - (For MacOS) ```export JULIA_NUM_THREADS=4 ```
-        (FOR Windows) ```set JULIA_NUM_THREADS=4```
-      - julia FindSimilarNames.jl
+   - Open terminal and type-
+   - (For MacOS) ```export JULIA_NUM_THREADS=4 ``` <br>
+        (For Windows) ```set JULIA_NUM_THREADS=4```
+   - julia FindSimilarNames.jl
    
 # File Description:  
 - <b> PrepareData.jl </b>: 
