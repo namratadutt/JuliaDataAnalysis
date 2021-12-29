@@ -1,9 +1,9 @@
 # JuliaDataAnalysis
 # Goal:
-The goal of this project is to 
-1) Load the data into a SQLite database from zip archive downloaded from Data.gov.
-2) Take a database, a name  and the sex as an argument and produce a plot over time of the frequency of the name.
-3) Find boy and girl names that are the most similar in terms of historical frequency. 
+### The goal of this project is to 
+### 1) Load the data into a SQLite database from zip archive downloaded from Data.gov.
+### 2) Take a database, a name  and the sex as an argument and produce a plot over time of the frequency of the name.
+###3) Find boy and girl names that are the most similar in terms of historical frequency. 
 
 # Steps to run:
 
