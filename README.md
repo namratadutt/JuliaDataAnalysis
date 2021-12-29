@@ -7,7 +7,7 @@ The goal of this project is to
 
 # Steps to run:
 
-- PrepareData.jl : This code assumes that names.zip is in the same folder as the file.
+## - PrepareData.jl : This code assumes that names.zip is in the same folder as the file.
    To run, type- julia prepare.jl names.zip names.db
 
 - PlotData.jl : This code takes input from prepare.jl file.
@@ -18,6 +18,8 @@ The goal of this project is to
                          • (For MacOS) export JULIA_NUM_THREADS=4 
                            (FOR Windows) set JULIA_NUM_THREADS=4
                          • julia FindSimilarNames.jl
+   
+   
 - PrepareData.jl: 
   1) Read the name of the input file and output file from the command line.
   2) Use the Julia ZipFile.jl library to scan the input zip file. 
